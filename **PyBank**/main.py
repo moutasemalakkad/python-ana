@@ -71,6 +71,11 @@ with open(path, 'r', newline='') as csvfile:
     print("")
     print('Greates Increase ', f' ({maxMonth})', greatestIncrease)
     print("")
-        
 
- 
+
+with open('/Users/moutasemakkad/Desktop/HomeWorks/python-challenge/**PyBank**/Output.txt', 'w', newline='') as csvfile:
+    csvfile.write(f'total months: {totalMonth}\n')
+    csvfile.write(f'total Profit and Loss: {totalProfitAndLoss}\n')
+    csvfile.write(f'Average Change: {totalChange/listtLength * 100}\n')
+    csvfile.write(f'Greatest Decrease {minMonth}: {greatestDecrease}\n')
+    csvfile.write(f'Greates Increase {maxMonth}: {greatestIncrease}\n')

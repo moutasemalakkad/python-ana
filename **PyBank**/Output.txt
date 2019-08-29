@@ -1,0 +1,5 @@
+total months: 86
+total Profit and Loss: 38382578
+Average Change: -231511.76470588235
+Greatest Decrease Sep-2013: -2196167
+Greates Increase Feb-2012: 1926159
